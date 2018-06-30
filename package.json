@@ -31,8 +31,7 @@
     "camp": "~15.5.5",
     "semver": "~4.3.3",
     "bower": "~1.7.5",
-    "promise": "~7.0.0",
-    "snyk": "^1.88.0"
+    "promise": "~7.0.0"
   },
   "devDependencies": {
     "ass": "~0.0.6",
@@ -40,9 +39,7 @@
     "mocha": "~1.14.0"
   },
   "scripts": {
-    "test": "mocha -R spec test.js",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "mocha -R spec test.js"
   },
   "bin": {
     "badge": "./gh-badge.js"
@@ -57,7 +54,6 @@
     "phantomjs-svg2png.js"
   ],
   "engines": {
-    "node": "0.10.x"
-  },
-  "snyk": true
+    "node": ">=6.0.0"
+  }
 }
