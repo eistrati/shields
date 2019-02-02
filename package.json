@@ -30,7 +30,7 @@
     "redis": "~0.12.1",
     "camp": "~17.2.2",
     "semver": "~4.3.3",
-    "bower": "~1.7.5",
+    "bower": "~1.8.8",
     "promise": "~7.0.0"
   },
   "devDependencies": {
