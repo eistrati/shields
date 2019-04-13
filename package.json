@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "dot": "~1.0.3",
-    "svgo": "~0.5.1",
-    "canvas": "~1.1.2",
+    "svgo": "~1.1.0",
+    "canvas": "~1.6.10",
     "phantomjs": "~1.9.2-6",
     "es6-promise": "~2.1.0",
     "request": "~2.81.0",
